@@ -1,0 +1,74 @@
+
+@if(questions.length>0){
+
+
+  <div class="container mx-auto p-8">
+    <h2 class="text-2xl font-bold mb-6">Preview Questions</h2>
+    <div *ngFor="let question of questions; let i = index" class="mb-6 p-6 bg-white shadow-md rounded">
+      <h4 class="text-lg font-semibold mb-4">{{i + 1}}. {{ question.question }}</h4>
+  
+      <div *ngIf="question.questionType === 'radio'">
+        <div *ngFor="let answer of question.answers" class="flex items-center mb-2">
+          <input type="radio" name="radio-{{question.questionNumber}}" class="mr-2">
+          <label>{{ answer.answer }}</label>
+        </div>
+      </div>
+  
+      <div *ngIf="question.questionType === 'checkbox'">
+        <div *ngFor="let answer of question.answers" class="flex items-center mb-2">
+          <input type="checkbox" class="mr-2">
+          <label>{{ answer.answer }}</label>
+        </div>
+      </div>
+  
+      <div *ngIf="question.questionType === 'dropdown'">
+        <select class="w-full p-2 border border-gray-300 rounded">
+          <option *ngFor="let answer of question.answers">{{ answer.answer }}</option>
+        </select>
+      </div>
+  
+      <div *ngIf="question.questionType === 'text'">
+        <input type="text" class="w-full p-2 border border-gray-300 rounded" placeholder="Enter Your answer">
+      </div>
+    </div>
+  
+    <div class="flex justify-between">
+  
+      <button routerLink="/form" class="bg-green-500 text-white py-2 px-4 rounded">
+        Back
+      </button>
+    
+      <button (click)="openFormNameModal()"  class="bg-blue-500 text-white py-2 px-4 rounded">
+        Save Form
+      </button>
+  
+      
+    </div>
+  
+    <!-- Modal for entering form name -->
+    <div *ngIf="isFormNameModalOpen" class="fixed inset-0 bg-gray-600 bg-opacity-75 flex items-center justify-center z-50">
+      <div class="bg-white p-8 rounded-lg shadow-lg w-1/3">
+        <h3 class="text-lg font-bold mb-4">Enter Form Name</h3>
+        <input [(ngModel)]="formName1" class="w-full p-2 mb-4 border border-gray-300 rounded" placeholder="Form Name" />
+        <div class="flex justify-end">
+          <button (click)="closeFormNameModal()" class="mr-2 bg-gray-300 text-gray-700 py-2 px-4 rounded">Cancel</button>
+          <button (click)="saveForm()" class="bg-blue-500 text-white py-2 px-4 rounded">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+}
+
+@else {
+  <div class="container mx-auto p-4">
+    <div class="bg-white rounded shadow-md p-4 text-center">
+      <h2 class="text-lg font-bold">No Preview available</h2>
+      <p class="text-gray-600">Add the question to preview</p>
+      <button (click)="gotoHome()" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded">
+        Go Back
+      </button>
+    </div>
+  </div>
+}
+
+

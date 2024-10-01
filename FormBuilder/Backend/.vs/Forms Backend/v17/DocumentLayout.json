@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3336CF5-3374-414A-A593-0F3AF1A7F430}|Forms Backend\\Forms Backend.csproj|d:\\project\\project3_formextend\\formbuilder\\backend\\forms backend\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3336CF5-3374-414A-A593-0F3AF1A7F430}|Forms Backend\\Forms Backend.csproj|solutionrelative:forms backend\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|d:\\project\\project3_formextend\\formbuilder\\backend\\database\\dbentities\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|solutionrelative:database\\dbentities\\form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|d:\\project\\project3_formextend\\formbuilder\\backend\\database\\dbentities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|solutionrelative:database\\dbentities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|d:\\project\\project3_formextend\\formbuilder\\backend\\database\\modelentities\\previewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|solutionrelative:database\\modelentities\\previewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|d:\\project\\project3_formextend\\formbuilder\\backend\\database\\modelentities\\changemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|solutionrelative:database\\modelentities\\changemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|d:\\project\\project3_formextend\\formbuilder\\backend\\database\\inboxcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|solutionrelative:database\\inboxcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3336CF5-3374-414A-A593-0F3AF1A7F430}|Forms Backend\\Forms Backend.csproj|d:\\project\\project3_formextend\\formbuilder\\backend\\forms backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3336CF5-3374-414A-A593-0F3AF1A7F430}|Forms Backend\\Forms Backend.csproj|solutionrelative:forms backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3336CF5-3374-414A-A593-0F3AF1A7F430}|Forms Backend\\Forms Backend.csproj|d:\\project\\project3_formextend\\formbuilder\\backend\\forms backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B3336CF5-3374-414A-A593-0F3AF1A7F430}|Forms Backend\\Forms Backend.csproj|solutionrelative:forms backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|d:\\project\\project3_formextend\\formbuilder\\backend\\database\\dbentities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80A97616-4C83-46DD-9317-F2B35676192A}|Database\\Database.csproj|solutionrelative:database\\dbentities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Forms Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Forms Backend\\appsettings.json",
+              "ToolTip": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Forms Backend\\appsettings.json",
+              "RelativeToolTip": "Forms Backend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-30T11:08:08.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "previewModel.cs",
+              "DocumentMoniker": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\ModelEntities\\previewModel.cs",
+              "RelativeDocumentMoniker": "Database\\ModelEntities\\previewModel.cs",
+              "ToolTip": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\ModelEntities\\previewModel.cs",
+              "RelativeToolTip": "Database\\ModelEntities\\previewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T07:07:08.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Forms Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Forms Backend\\Program.cs",
+              "ToolTip": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Forms Backend\\Program.cs",
+              "RelativeToolTip": "Forms Backend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswBsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T07:06:13.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "changeModel.cs",
+              "DocumentMoniker": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\ModelEntities\\changeModel.cs",
+              "RelativeDocumentMoniker": "Database\\ModelEntities\\changeModel.cs",
+              "ToolTip": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\ModelEntities\\changeModel.cs",
+              "RelativeToolTip": "Database\\ModelEntities\\changeModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T06:45:27.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormController.cs",
+              "DocumentMoniker": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Forms Backend\\Controllers\\FormController.cs",
+              "RelativeDocumentMoniker": "Forms Backend\\Controllers\\FormController.cs",
+              "ToolTip": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Forms Backend\\Controllers\\FormController.cs",
+              "RelativeToolTip": "Forms Backend\\Controllers\\FormController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAcwA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:40:57.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InboxContext.cs",
+              "DocumentMoniker": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\InboxContext.cs",
+              "RelativeDocumentMoniker": "Database\\InboxContext.cs",
+              "ToolTip": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\InboxContext.cs",
+              "RelativeToolTip": "Database\\InboxContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:34:27.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\DbEntities\\Answer.cs",
+              "RelativeDocumentMoniker": "Database\\DbEntities\\Answer.cs",
+              "ToolTip": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\DbEntities\\Answer.cs",
+              "RelativeToolTip": "Database\\DbEntities\\Answer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:32:35.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\DbEntities\\Question.cs",
+              "RelativeDocumentMoniker": "Database\\DbEntities\\Question.cs",
+              "ToolTip": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\DbEntities\\Question.cs",
+              "RelativeToolTip": "Database\\DbEntities\\Question.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:32:01.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form.cs",
+              "DocumentMoniker": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\DbEntities\\Form.cs",
+              "RelativeDocumentMoniker": "Database\\DbEntities\\Form.cs",
+              "ToolTip": "D:\\Project\\Project3_FormExtend\\FormBuilder\\Backend\\Database\\DbEntities\\Form.cs",
+              "RelativeToolTip": "Database\\DbEntities\\Form.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T17:29:04.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<div *ngIf="savedForms && savedForms.length > 0; else noForms">
+    <div *ngFor="let form of savedForms" class="p-4 bg-gray-100 rounded mb-4">
+      <div class="flex justify-start gap-5 items-center">
+        <div>
+          <h3 class="text-xl font-semibold">{{ form.formName }}</h3>
+        </div>
+        <button (click)="copyForm(form)" class="bg-green-500 text-white py-2 px-4 rounded">
+          Copy
+        </button>
+
+        <button (click)="previewForm(form)" class="bg-blue-500 text-white py-2 px-4 rounded">
+          Preview
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <ng-template #noForms>
+    <div class="container mx-auto p-4 flex flex-col items-center justify-center min-h-screen">
+
+      <div class="animate-spin rounded-full h-16 w-16 border-t-4 border-green-500 border-solid border-opacity-50 mb-6"></div>
+      
+       <p class="text-xl font-semibold text-gray-800 mb-2">Loading...</p>
+      
+      <p class="text-gray-600">Please wait while we load your forms</p>
+    </div>
+    
+  </ng-template>
+  
